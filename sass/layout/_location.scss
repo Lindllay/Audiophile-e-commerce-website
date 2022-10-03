@@ -1,0 +1,24 @@
+.section-location {
+	display: flex;
+	height: max-content;
+	margin: 20rem auto;
+	gap: 12.5rem;
+	align-items: center;
+	max-height: 59rem;
+
+	.location-textbox {
+		flex: 1;
+		display: flex;
+		flex-direction: column;
+		gap: 3.2rem;
+	}
+	.location-imagebox {
+		flex: 1.1;
+		background: url(/assets/shared/desktop/image-best-gear.jpg);
+		background-size: contain;
+		background-position: center;
+		background-repeat: no-repeat;
+		height: 59rem;
+		border-radius: 1rem;
+	}
+}

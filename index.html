@@ -1,60 +1,243 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Audiophile e-commerce website</title>
-</head>
-<body>
-  Home
-  Headphones
-  Speakers
-  Earphones
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./assets/favicon-32x32.png"
+		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="css/main.css" />
 
-  New product
-  XX99 Mark II Headphones
-  Experience natural, lifelike audio and exceptional build quality made for the passionate music enthusiast.
-  
-  See product
+		<title>Frontend Mentor | Audiophile e-commerce website</title>
+	</head>
+	<body>
+		<section class="hero">
+			<div class="container container__hero">
+				<header class="header">
+					<div class="logo-box">
+						<img
+							src="assets/shared/desktop/logo.svg"
+							alt="logo"
+							class="logo"
+						/>
+					</div>
+					<nav class="nav">
+						<ul class="nav__list margin-right--big">
+							<li class="nav__item">
+								<a href="index.html" class="nav__link">home</a>
+							</li>
+							<li class="nav__item">
+								<a href="headphones.html" class="nav__link"
+									>headphones</a
+								>
+							</li>
+							<li class="nav__item">
+								<a href="speakers.html" class="nav__link"
+									>speakers</a
+								>
+							</li>
+							<li class="nav__item">
+								<a href="earphones.html" class="nav__link"
+									>earphones</a
+								>
+							</li>
+						</ul>
+					</nav>
+					<div class="cart-icon-box">
+						<img
+							src="assets/shared/desktop/icon-cart.svg"
+							alt="cart-icon"
+							class="cart-icon"
+						/>
+					</div>
+				</header>
+				<div class="hero__text-box">
+					<p class="overline">new product</p>
+					<h1 class="heading-1">XX99 Mark II Headphones</h1>
+					<p class="paragraph color--white">
+						Experience natural, lifelike audio and exceptional
+						<br />build quality made for the passionate music
+						<br />enthusiast.
+					</p>
+					<a
+						href="product-xx99-mark-two-headphones.html"
+						class="btn btn--1"
+						>see product</a
+					>
+				</div>
+			</div>
+		</section>
+		<section class="section-categories container">
+			<div class="category-box">
+				<img
+					src="assets/shared/desktop/image-category-thumbnail-headphones.png"
+					alt="headphones"
+					class="category-img"
+				/>
+				<div class="category-text">
+					<h6 class="heading-6">headphones</h6>
+					<a href="headphones.html" class="btn btn--shop"
+						>shop<img
+							src="assets/shared/desktop/icon-arrow-right.svg"
+							alt="btn-arrow"
+					/></a>
+				</div>
+			</div>
+			<div class="category-box">
+				<img
+					src="assets/shared/desktop/image-category-thumbnail-speakers.png"
+					alt="speakers"
+					class="category-img"
+				/>
+				<div class="category-text">
+					<h6 class="heading-6">speakers</h6>
+					<a href="speakers.html" class="btn btn--shop"
+						>shop<img
+							src="assets/shared/desktop/icon-arrow-right.svg"
+							alt="btn-arrow"
+					/></a>
+				</div>
+			</div>
+			<div class="category-box">
+				<img
+					src="assets/shared/desktop/image-category-thumbnail-earphones.png"
+					alt="earphones"
+					class="category-img"
+				/>
+				<div class="category-text">
+					<h6 class="heading-6">earphones</h6>
+					<a href="earphones.html" class="btn btn--shop"
+						>shop<img
+							src="assets/shared/desktop/icon-arrow-right.svg"
+							alt="btn-arrow"
+					/></a>
+				</div>
+			</div>
+		</section>
+		<section class="home-products-section container">
+			<div class="ZX9speaker-box">
+				<img
+					src="assets/home/desktop/pattern-circles.svg"
+					alt="pattern-circles"
+					class="circle-pattern"
+				/>
 
-  Headphones
-  Shop
+				<div class="ZX9-speaker-product">
+					<img
+						src="assets/home/desktop/image-speaker-zx9.png"
+						alt="ZX9-speaker"
+						class="ZX9-speaker-img-home"
+					/>
 
-  Speakers
-  Shop
-
-  Earphones
-  Shop
-
-  ZX9 speaker
-  Upgrade to premium speakers that are phenomenally built to deliver truly remarkable sound.
-  See product
-
-  ZX7 speaker
-  See product
-
-  YX1 earphones
-  See product
-
-  Bringing you the best audio gear
-  Located at the heart of New York City, Audiophile is the premier store for high end headphones, 
-  earphones, speakers, and audio accessories. We have a large showroom and luxury demonstration 
-  rooms available for you to browse and experience a wide range of our products. Stop by our store 
-  to meet some of the fantastic people who make Audiophile the best place to buy your portable 
-  audio equipment.
-
-  Home
-  Headphones
-  Speakers
-  Earphones
-
-  Audiophile is an all in one stop to fulfill your audio needs. We're a small team of music lovers 
-  and sound specialists who are devoted to helping you get the most out of personal audio. Come and 
-  visit our demo facility - we’re open 7 days a week.
-
-  Copyright 2021. All Rights Reserved
-</body>
+					<div class="ZX9-speaker-textbox">
+						<h1 class="heading-1">ZX9 speaker</h1>
+						<p class="paragraph color--white">
+							Upgrade to premium speakers that are phenomenally
+							built to deliver truly remarkable sound.
+						</p>
+						<a href="product-zx9-speaker.html" class="btn btn--3"
+							>See product</a
+						>
+					</div>
+				</div>
+			</div>
+			<div class="ZX7speaker-box">
+				<div class="ZX7-speaker-textbox">
+					<h4 class="heading-4">ZX7 speaker</h4>
+					<a href="product-zx7-speaker.html" class="btn btn--2"
+						>See product</a
+					>
+				</div>
+			</div>
+			<div class="YX1earphones-box">
+				<div class="YX1earphones-image"></div>
+				<div class="YX1earphones-textbox">
+					<div class="heading-4">YX1 earphones</div>
+					<a href="product-earphones.html" class="btn btn--2"
+						>See product</a
+					>
+				</div>
+			</div>
+		</section>
+		<section class="section-location container">
+			<div class="location-textbox">
+				<h2 class="heading-2">
+					Bringing you the
+					<span class="color-orange">best</span> audio gear
+				</h2>
+				<p class="paragraph">
+					Located at the heart of New York City, Audiophile is the
+					premier store for high end headphones, earphones, speakers,
+					and audio accessories. We have a large showroom and luxury
+					demonstration rooms available for you to browse and
+					experience a wide range of our products. Stop by our store
+					to meet some of the fantastic people who make Audiophile the
+					best place to buy your portable audio equipment.
+				</p>
+			</div>
+			<div class="location-imagebox"></div>
+		</section>
+		<footer class="footer">
+			<div class="logo-box">
+				<img
+					src="assets/shared/desktop/logo.svg"
+					alt="logo"
+					class="logo"
+				/>
+			</div>
+			<nav class="footer-nav">
+				<ul class="footer-nav__list">
+					<li class="footer-nav__item">
+						<a href="index.html" class="footer-nav__link">home</a>
+					</li>
+					<li class="footer-nav__item">
+						<a href="headphones.html" class="footer-nav__link"
+							>headphones</a
+						>
+					</li>
+					<li class="footer-nav__item">
+						<a href="speakers.html" class="footer-nav__link"
+							>speakers</a
+						>
+					</li>
+					<li class="footer-nav__item">
+						<a href="earphones.html" class="footer-nav__link"
+							>earphones</a
+						>
+					</li>
+				</ul>
+			</nav>
+			<p class="about paragraph color--grey">
+				Audiophile is an all in one stop to fulfill your audio needs.
+				We're a small team of music lovers and sound specialists who are
+				devoted to helping you get the most out of personal audio. Come
+				and visit our demo facility - we’re open 7 days a week.
+			</p>
+			<p class="copyright paragraph color--grey bold">
+				Copyright 2021. All Rights Reserved
+			</p>
+			<div class="media-box">
+				<img
+					src="assets/shared/desktop/icon-facebook.svg"
+					alt="facebook-icon"
+				/><img
+					src="assets/shared/desktop/icon-twitter.svg"
+					alt="twitter-icon"
+				/><img
+					src="assets/shared/desktop/icon-instagram.svg"
+					alt="instagram-icon"
+				/>
+			</div>
+		</footer>
+	</body>
 </html>

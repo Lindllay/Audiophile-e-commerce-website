@@ -1,0 +1,61 @@
+.btn {
+	display: inline-block;
+	font-size: 1.3rem;
+	font-weight: 600;
+	letter-spacing: 1px;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: all 0.2s;
+}
+
+.btn--1:link,
+.btn--1:visited {
+	padding: 1.5rem 3rem;
+	background-color: var(--color-raw-sienna);
+	color: var(--color-light-grey);
+
+	&:hover {
+		background-color: var(--color-tacao);
+	}
+}
+.btn--2:link,
+.btn--2:visited {
+	color: var(--color-black);
+	padding: 1.5rem 3rem;
+	border: 1px solid black;
+}
+.btn--2:hover,
+.btn--2:active {
+	color: white;
+	background-color: var(--color-black);
+	border: 1px solid transparent;
+}
+
+.btn--3:link,
+.btn--3:visited {
+	color: var(--color-light-grey);
+	background-color: var(--color-black);
+	padding: 1.5rem 3rem;
+}
+
+.btn--3:hover,
+.btn--3:active {
+	background-color: var(--color-grey-button);
+}
+
+.btn--shop:link,
+.btn--shop:visited {
+	color: grey;
+	font-weight: 600;
+	display: flex;
+	align-items: center;
+
+	img {
+		margin-left: 1rem;
+	}
+}
+
+.btn--shop:hover,
+.btn--shop:active {
+	color: var(--color-raw-sienna);
+}

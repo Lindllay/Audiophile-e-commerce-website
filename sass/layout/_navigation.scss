@@ -1,0 +1,23 @@
+.nav {
+	&__list {
+		display: flex;
+		list-style: none;
+		gap: 3.4rem;
+	}
+	&__item {
+	}
+	&__link:link,
+	&__link:visited {
+		text-decoration: none;
+		text-transform: uppercase;
+		font-weight: 500;
+		font-size: 1.3rem;
+		letter-spacing: 1px;
+		color: var(--color-light-grey);
+		transition: all 0.2s;
+	}
+	&__link:hover,
+	&__link:active {
+		color: var(--color-raw-sienna);
+	}
+}
