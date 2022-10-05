@@ -13,7 +13,8 @@
 }
 
 .container__hero {
-	background: url(/assets/home/desktop/image-hero.jpg);
+	background: url(../assets/home/desktop/image-hero.jpg);
+
 	background-position: center 80%;
 	height: min(100vh, 729px);
 	display: flex;
