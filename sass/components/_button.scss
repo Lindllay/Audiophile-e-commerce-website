@@ -59,3 +59,11 @@
 .btn--shop:active {
 	color: var(--color-raw-sienna);
 }
+
+.button {
+	//styles for buttons, not anchors
+	background-color: var(--color-raw-sienna);
+	border: none;
+	color: white;
+	padding: 1.5rem 3.4rem;
+}

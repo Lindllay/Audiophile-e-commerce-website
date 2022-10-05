@@ -1,0 +1,19 @@
+.section-product-detail {
+	margin-block: 16rem;
+
+	.product-row {
+		display: flex;
+		gap: 6.5rem;
+
+		.product-img {
+			flex: 1;
+			img {
+				// height: 100%;
+				width: 100%;
+			}
+		}
+		.details-box {
+			flex: 1;
+		}
+	}
+}

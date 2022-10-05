@@ -1,56 +1,224 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./assets/favicon-32x32.png"
+		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="css/main.css" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+		<title>Frontend Mentor | Audiophile e-commerce website</title>
+	</head>
 
-  <title>Frontend Mentor | Audiophile e-commerce website</title>
-</head>
-
-<body>
-  Home
-  Headphones
-  Speakers
-  Earphones
-
-  New product
-
-  YX1 wireless earphones
-  Tailor your listening experience with bespoke dynamic drivers from the new YX1 Wireless Earphones. 
-  Enjoy incredible high-fidelity sound even in noisy environments with its active noise cancellation feature.
-
-  See product
-
-
-  Headphones
-  Shop
-  
-  Speakers
-  Shop
-  
-  Earphones
-  Shop
-
-  Bringing you the best audio gear
-  Located at the heart of New York City, Audiophile is the premier store for high end headphones,
-  earphones, speakers, and audio accessories. We have a large showroom and luxury demonstration
-  rooms available for you to browse and experience a wide range of our products. Stop by our store
-  to meet some of the fantastic people who make Audiophile the best place to buy your portable
-  audio equipment.
-
-  Home
-  Headphones
-  Speakers
-  Earphones
-
-  Audiophile is an all in one stop to fulfill your audio needs. We're a small team of music lovers
-  and sound specialists who are devoted to helping you get the most out of personal audio. Come and
-  visit our demo facility - we’re open 7 days a week.
-
-  Copyright 2021. All Rights Reserved
-</body>
-
+	<body>
+		<section class="section-category">
+			<div class="container">
+				<header class="header">
+					<div class="logo-box">
+						<img
+							src="assets/shared/desktop/logo.svg"
+							alt="logo"
+							class="logo"
+						/>
+					</div>
+					<nav class="nav">
+						<ul class="nav__list margin-right--medium">
+							<li class="nav__item">
+								<a href="index.html" class="nav__link">home</a>
+							</li>
+							<li class="nav__item">
+								<a href="headphones.html" class="nav__link"
+									>headphones</a
+								>
+							</li>
+							<li class="nav__item">
+								<a href="speakers.html" class="nav__link"
+									>speakers</a
+								>
+							</li>
+							<li class="nav__item">
+								<a href="earphones.html" class="nav__link"
+									>earphones</a
+								>
+							</li>
+						</ul>
+					</nav>
+					<div class="cart-icon-box">
+						<img
+							src="assets/shared/desktop/icon-cart.svg"
+							alt="cart-icon"
+							class="cart-icon"
+						/>
+					</div>
+				</header>
+				<h2 class="heading-2">earphones</h2>
+			</div>
+		</section>
+		<section class="category-grid container">
+			<picture class="image-box">
+				<source
+					srcset="
+						/assets/product-yx1-earphones/tablet/image-product.jpg
+					"
+					media="(max-width: 48em)"
+				/>
+				<img
+					srcset="
+						/assets/product-yx1-earphones/desktop/image-product.jpg
+					"
+					alt="earphones-img"
+				/>
+			</picture>
+			<div class="product-info yx1-info">
+				<p class="overline color-orange">New product</p>
+				<h2 class="heading-2">YX1 wireless earphones</h2>
+				<p class="paragraph color--grey">
+					Tailor your listening experience with bespoke dynamic
+					drivers from the new YX1 Wireless Earphones. Enjoy
+					incredible high-fidelity sound even in noisy environments
+					with its active noise cancellation feature.
+				</p>
+				<a href="product-earphones.html" class="btn btn--1"
+					>see product</a
+				>
+			</div>
+		</section>
+		<section class="section-categories container">
+			<div class="category-box">
+				<img
+					src="assets/shared/desktop/image-category-thumbnail-headphones.png"
+					alt="headphones"
+					class="category-img"
+				/>
+				<div class="category-text">
+					<h6 class="heading-6">headphones</h6>
+					<a href="headphones.html" class="btn btn--shop"
+						>shop<img
+							src="assets/shared/desktop/icon-arrow-right.svg"
+							alt="btn-arrow"
+					/></a>
+				</div>
+			</div>
+			<div class="category-box">
+				<img
+					src="assets/shared/desktop/image-category-thumbnail-speakers.png"
+					alt="speakers"
+					class="category-img"
+				/>
+				<div class="category-text">
+					<h6 class="heading-6">speakers</h6>
+					<a href="speakers.html" class="btn btn--shop"
+						>shop<img
+							src="assets/shared/desktop/icon-arrow-right.svg"
+							alt="btn-arrow"
+					/></a>
+				</div>
+			</div>
+			<div class="category-box">
+				<img
+					src="assets/shared/desktop/image-category-thumbnail-earphones.png"
+					alt="earphones"
+					class="category-img"
+				/>
+				<div class="category-text">
+					<h6 class="heading-6">earphones</h6>
+					<a href="earphones.html" class="btn btn--shop"
+						>shop<img
+							src="assets/shared/desktop/icon-arrow-right.svg"
+							alt="btn-arrow"
+					/></a>
+				</div>
+			</div>
+		</section>
+		<section class="section-location container">
+			<div class="location-textbox">
+				<h2 class="heading-2">
+					Bringing you the
+					<span class="color-orange">best</span> audio gear
+				</h2>
+				<p class="paragraph">
+					Located at the heart of New York City, Audiophile is the
+					premier store for high end headphones, earphones, speakers,
+					and audio accessories. We have a large showroom and luxury
+					demonstration rooms available for you to browse and
+					experience a wide range of our products. Stop by our store
+					to meet some of the fantastic people who make Audiophile the
+					best place to buy your portable audio equipment.
+				</p>
+			</div>
+			<picture class="location-image">
+				<source
+					srcset="/assets/shared/tablet/image-best-gear.jpg"
+					media="(max-width: 48em)"
+				/>
+				<img
+					srcset="/assets/shared/desktop/image-best-gear.jpg"
+					alt="image-best-gear"
+				/>
+			</picture>
+		</section>
+		<footer class="footer">
+			<div class="logo-box">
+				<img
+					src="assets/shared/desktop/logo.svg"
+					alt="logo"
+					class="logo"
+				/>
+			</div>
+			<nav class="footer-nav">
+				<ul class="footer-nav__list">
+					<li class="footer-nav__item">
+						<a href="index.html" class="footer-nav__link">home</a>
+					</li>
+					<li class="footer-nav__item">
+						<a href="headphones.html" class="footer-nav__link"
+							>headphones</a
+						>
+					</li>
+					<li class="footer-nav__item">
+						<a href="speakers.html" class="footer-nav__link"
+							>speakers</a
+						>
+					</li>
+					<li class="footer-nav__item">
+						<a href="earphones.html" class="footer-nav__link"
+							>earphones</a
+						>
+					</li>
+				</ul>
+			</nav>
+			<p class="about paragraph color--grey">
+				Audiophile is an all in one stop to fulfill your audio needs.
+				We're a small team of music lovers and sound specialists who are
+				devoted to helping you get the most out of personal audio. Come
+				and visit our demo facility - we’re open 7 days a week.
+			</p>
+			<p class="copyright paragraph color--grey bold">
+				Copyright 2021. All Rights Reserved
+			</p>
+			<div class="media-box">
+				<img
+					src="assets/shared/desktop/icon-facebook.svg"
+					alt="facebook-icon"
+				/><img
+					src="assets/shared/desktop/icon-twitter.svg"
+					alt="twitter-icon"
+				/><img
+					src="assets/shared/desktop/icon-instagram.svg"
+					alt="instagram-icon"
+				/>
+			</div>
+		</footer>
+	</body>
 </html>
