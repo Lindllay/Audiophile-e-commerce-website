@@ -256,12 +256,6 @@ body {
 .category-grid .product-info .paragraph {
   margin-bottom: 4rem;
 }
-.category-grid .zx9-img {
-  background: url(/assets/product-zx9-speaker/desktop/image-product.jpg);
-}
-.category-grid .zx7-img {
-  background: url(/assets/product-zx7-speaker/desktop/image-product.jpg);
-}
 .category-grid .yx1-img {
   background: url(/assets/product-yx1-earphones/desktop/image-product.jpg);
 }
@@ -498,7 +492,7 @@ body {
   width: -webkit-min-content;
   width: -moz-min-content;
   width: min-content;
-  height: 100%;
+  height: 85%;
   justify-content: center;
   align-items: flex-start;
   gap: 2.4rem;
@@ -506,7 +500,7 @@ body {
 
 .container__hero {
   background: url(../assets/home/desktop/image-hero.jpg);
-  background-position: center 80%;
+  background-position: center 70%;
   height: min(100vh, 729px);
   display: flex;
   flex-direction: column;
